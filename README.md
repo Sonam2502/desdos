@@ -15,4 +15,5 @@
 * static livrary
     * ar x (exrtact)
     * ar crv libname.a 1.o 2.o......n.o =>(*.o)
-*Dynamic Library                
+*Dynamic Library
+    *gcc -o libname.so -shared -fPIC                
