@@ -35,3 +35,76 @@ Section
 * strace
 * program using system call -> write a string inside a file
 
+*Library
+    *user space
+    *May be buffered I/o
+    formated I/o
+    *System
+        *Kernel space
+        *not buffered I/o
+        *no formatted I/o
+    * open - o CREAT
+    * int - file descriptor
+    * fd - represents an open file in the kernel
+    * 0 - standard input
+    * 1 - standard output
+    * 2 - standard error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

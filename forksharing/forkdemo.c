@@ -2,7 +2,6 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-int count = 0;
 
 int main( int argc, char const *argv[])
 {
@@ -13,13 +12,11 @@ int main( int argc, char const *argv[])
 
     if(0 == id)
     {
-        
-        printf("count in child %d",count);
+        printf("in child: PID= %d\t PPid= %d\n", getpid(),getppid());
 
     }else
     {
-        count++;
-        printf("count in child %d\n", count);
+        printf("in parent: PID= %d\t PPID= %d\n", getpid(), getppid());
     }
 
     return 0;
