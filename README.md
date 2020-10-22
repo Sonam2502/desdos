@@ -50,12 +50,78 @@ Section
     * 1 - standard output
     * 2 - standard error
 
+*process stats:
+    *Creat
+    *Ready (multiple processes)
+    *running (one process -> uniprocess)
+    *waiting (multiple process)
+    *Destroy
+
+
+
+    *scheduling  algorithm-> chose  the next process that has to excute 
+    *context switch -> contex saving (current process)+ scheduling (choose the new process)+ contex restoring (new process)
+    *context => sp,  pc, gpr, flags -> hardware rigister -> uniprocess( 1 copy)
+
+
+    *Blocking -> process may go into a waiting state 
+    *non blocking call never block -> immediately return back after doing functionality
+
+*inter process communication
+ p1 -> p2
+
+ *pipes 
+    *IPC
+    *unidirection 
+    *Related process (parent and child)
+    *pipe -> two intergers (file descriptors)
+    0 -> reading
+    1 -> writing
+    * childwil inherit file descriptors
+    
+
+  *FIFOs
+    *IPC
+    *unidirectional
+    *unrelated process
+    *fifo aka name pipes 
+
+
+  *write a program which does the fallowing 
+    *p1: get two intger input s
+    p1: send it to p2
+    *p2 : recv two intgers
+    p2: addtwo intgers
+    p2:send to p1
+    *p1 :'r t theresult
+     
 
 
 
 
 
 
+Case 1:
+*creat - webinterface - repo
+*Add address of the repo
+*git add
+*git commit
+*git push
+
+
+Case 2:
+*Exising repo - webinterface
+*git  clone GITRepoURL
+*Copy your source code to thie directory
+*git add
+* git commit
+  *git push
+
+Case 3:
+git pull
+**git  add 
+ **git  commit
+ *git push
 
 
 
