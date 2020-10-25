@@ -93,8 +93,44 @@ Section
     *p2 : recv two intgers
     p2: addtwo intgers
     p2:send to p1
-    *p1 :'r t theresult
+
+   *p1: printf the result
+
+
+   *Batch
+   *multi programing
+   *multi tasking
+   *multi processing 
+   *multi threading
+   multi user
+
+
+   *Design
+    *monolithic approach
+     * eg. Linux
+     *single address space
+   *micro kernel approach
+   *eg .QNX, Minix
+   *multi address space
+        *system process -> priviledge eg. networking stack , Do
+         *user process -> non -priv -> mp3 player , editor
+    *message queues used for information aharing
+
+
+
+
+    *Thread 
+      *POSIX
+      *library pthread
+      *thread_t
+      *pthread_attr_t ->Attributes
+        *joinable - detacheable
+        *Schedyling
+        *priority
+
      
+
+
 
 
 
