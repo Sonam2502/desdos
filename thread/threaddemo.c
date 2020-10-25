@@ -4,19 +4,21 @@
  
  
 
-void* thread(void *arg)
+void *thread(void *arg)
 {
 
     printf("Thread\n");
 }
+
+
 int main(int argc, int argv[])
 {
     
     pthread_t tid;
     
     printf("Before thread creation\n"); 
-    pthread_create(&tid,NULL,thread, NULL);
-    printf("Data %d\n", data);
+
+    pthread_create(&tid,NULL,thread,NULL );
 
     return 0;
 }
