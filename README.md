@@ -128,7 +128,12 @@ Section
         *Schedyling
         *priority
 
-     
+     *each thread has its own stack
+     *thread share -> .text, .data, .bass, heap
+
+ *Race condition
+  *shared data
+  *thread accessing shared data -> race condition    
 
 
 
