@@ -135,8 +135,20 @@ Section
   *shared data
   *thread accessing shared data -> race condition    
 
+*Mutual Exclusion (pthread_mutex_t)
+  *Mutex
+    *Futex
+    *Recursive
+    *Adaptive Mutex
+    Error checking Mutex (Assigment)
 
 
+*Semphore (sem_t)
+  *Binary
+    **mutual Exclusion -> initial value -> 1
+    * Signalling -> initialvalue -> 0/1
+  *Counting      
+  * initial ->N
 
 
 
